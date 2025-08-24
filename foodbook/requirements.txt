@@ -1,0 +1,7 @@
+Django>=4.2
+djangorestframework>=3.20
+djangorestframework-simplejwt>=6.0
+django-cors-headers>=4.0
+psycopg2-binary>=2.9      # Eğer PostgreSQL kullanacaksan
+gunicorn>=20.1.0           # Deploy için
+python-dotenv>=1.0.0       # .env dosyalarını okumak için
